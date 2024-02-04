@@ -1,0 +1,105 @@
+#section1{
+    width: 100%;
+    margin: 40px 0px;
+
+    h2{
+        text-align: center;
+        color: red;
+        span{
+            color: rgb(28, 217, 25);
+        }
+    }
+
+    .form__wrapper{
+        width: 330px;
+        height: 330px;
+        margin: 40px auto;
+        border: 1px solid silver;
+        padding: 20px;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &--form{
+            border-radius: 15px;
+            padding: 20px;
+            border: 1px solid crimson;
+            
+            &--titil{
+                text-align: center;
+                margin: 10px;
+            }
+
+            &--input1{
+                display: block;
+                width: 100%;
+                padding: 7px;
+                margin-bottom: 20px;
+                
+            }
+
+            &--btn{
+                display: block;
+                margin: auto;
+                padding: 5px 40px;
+                border: none;
+                border-radius: 5px;
+                background: yellowgreen;
+                color: white;
+                font: 600;
+
+                &:hover{
+                    cursor: pointer;
+                    background: rgb(136, 180, 46);
+                }
+            }
+        }
+    }
+}
+
+#section2{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(4,auto);
+        column-gap: 100px;
+        row-gap: 50px;
+        justify-content: center;
+
+        &__card{
+            border: 1px solid silver;
+            border-radius: 15px;
+            padding: 5px;
+
+            img{
+                border-radius: 15px 15px 0px 0px;
+                width: 220px;
+                height: 200px;
+                display: block;
+                margin: auto;
+            }
+
+            &---titil{
+                padding: 10px;
+
+                h3{
+                    text-align: center;
+                    margin-bottom: 5px;
+                    color: rgb(92, 234, 56);
+                }
+
+                p{
+                    text-align: center;
+
+                    span{
+                        color: red;
+                    }
+                }
+            }
+        }
+    }
+}
